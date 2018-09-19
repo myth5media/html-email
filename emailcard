@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  <style media="screen">
+
+    .header {
+      background: #CCC;
+      text-align: center;
+    }
+
+
+    .emailContent {
+      background: #000;
+      width: 600px;
+      height: 400px;
+      padding: 20px;
+      color: #ffffff;
+      text-align: center;
+
+    }
+
+    .footer {
+      background: #CCC;
+      text-align: center;
+
+
+    }
+
+    .contact-btn {
+      height: 30px;
+      background: #000;
+      color: #FFFFFF;
+      border: 0;
+    }
+
+  </style>
+
+
+  </head>
+  <body leftmargin="0" topmargin="0" marginwidth="0">
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+      <tr>
+        <td align="center" width="100%">
+          <table cellspacing="0" cellpadding="20" border="0" style="max-width: 599px;">
+            <tr>
+              <td class="header">
+                 Email Developer
+              </td>
+            </tr>
+
+            <tr>
+              <td class="emailContent">
+                    <p style="font-family: "Arial", Veranda, sans-serif;">Myron Himes</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="footer">
+                <a href="#"><input class="contact-btn" type="submit" value="CONTACT"></a>
+
+              </td>
+            </tr>
+
+
+          </table>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
