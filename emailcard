@@ -7,24 +7,28 @@
   <style media="screen">
 
     .header {
-      background: #CCC;
+      background: #000;
       text-align: center;
+      padding: 20px;
     }
 
 
     .emailContent {
-      background: #000;
+
       width: 600px;
       height: 400px;
-      padding: 20px;
+      margin: 0;
       color: #ffffff;
+      background: #000;
       text-align: center;
 
     }
 
     .footer {
-      background: #CCC;
+      background: #000;
       text-align: center;
+      padding: 20px;
+      margin-top: 0;
 
 
     }
@@ -33,8 +37,11 @@
       height: 30px;
       background: #000;
       color: #FFFFFF;
-      border: 0;
+      border: 1 solid #ffffff;
+      border-width: thin;
     }
+
+    .contact-btn: hover {value="SEND";}
 
   </style>
 
@@ -43,8 +50,8 @@
   <body leftmargin="0" topmargin="0" marginwidth="0">
     <table cellspacing="0" cellpadding="0" border="0" width="100%">
       <tr>
-        <td align="center" width="100%">
-          <table cellspacing="0" cellpadding="20" border="0" style="max-width: 599px;">
+        <td align="center" width="100%" ="0">
+          <table cellspacing="0" cellpadding="0" style="max-width: 599px;">
             <tr>
               <td class="header">
                  Email Developer
@@ -53,8 +60,12 @@
 
             <tr>
               <td class="emailContent">
-                    <p style="font-family: "Arial", Veranda, sans-serif;">Myron Himes</p>
-              </td>
+                <table cellspacing="0" cellpadding="0" border="0" style="max-width: 599px;">
+                  <tr>
+                    <td><img  width="600" src="https://github.com/myth5media/html-email/blob/master/Tron-Legacy-lightcycle.jpg?raw=true" alt=""></td>
+                  </tr>
+                </table>
+                </td>
             </tr>
 
             <tr>
@@ -72,3 +83,4 @@
 
   </body>
 </html>
+
