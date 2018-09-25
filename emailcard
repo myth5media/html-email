@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
       text-align: center;
       padding: 20px;
       border-bottom: 1px solid #fff;
-    
+
     }
 
 
@@ -57,7 +57,7 @@
         <td align="center" width="100%" ="0">
           <table cellspacing="0" cellpadding="0" style="max-width: 599px;">
             <tr>
-              <td class="header">
+              <td style="color: #fff; text-align: left; font-family: Arial Black, Gadget, sans-serif;" class="header">
                  Email Developer
               </td>
             </tr>
@@ -66,24 +66,51 @@
               <td class="emailContent">
                 <table cellspacing="0" cellpadding="0" border="0" style="max-width: 599px;">
                   <tr>
-                    <td><img  width="600" src="https://github.com/myth5media/html-email/blob/master/Tron-Legacy-lightcycle.jpg?raw=true" alt=""></td>
+                    <td style="font-family: "Arial Black", Gadget, sans-serif;"><img  width="600" src="https://github.com/myth5media/html-email/blob/master/Tron-Legacy-lightcycle.jpg?raw=true" alt=""></td>
                   </tr>
-                </table>
+
+                  <tr><!--img TableData-->
+                    <td style="padding: 10px;"><p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <table cellspacing="0" cellpadding="5" border="0" style="max-width: 599px;">
+                        <tr>
+                          <td>
+
+                          </td>
+
+                          <td>
+
+                          </td>
+
+
+                          <td>
+
+
+
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+
                 </td>
             </tr>
 
             <tr>
               <td class="footer">
-                <a href="#"><input class="contact-btn" type="submit" value="CONTACT"></a>
-
+                <a href="#"><input  align="left" class="contact-btn" type="submit" value="CONTACT"></a>
               </td>
             </tr>
 
 
-          </table>
+          </table><!--InnerTable-->
         </td>
       </tr>
-    </table>
+    </table><!--OuterTable-->
 
   </body>
 </html>
